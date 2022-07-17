@@ -1,0 +1,37 @@
+.body {
+    position: absolute;
+    top: 50%;
+    right: 70px;
+
+
+}
+
+.body_img {
+    background-color: transparent;
+}
+
+.list {
+    right: 0;
+    padding: 14px 14px 0px 20px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.listItem {
+    display: flex;
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+.listItem:not(:last-child) {
+    border-bottom: 1px solid var(--gray);
+}
+
+.img {
+    margin-right: 5px;
+}
+
+.listItem:hover >span >svg path {
+    fill: var(--orange);
+}

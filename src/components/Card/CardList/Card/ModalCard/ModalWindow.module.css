@@ -1,0 +1,23 @@
+.modalWindowBody {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    width: 60%;
+    height: 60%;
+    background-color: var(--orange);
+    transform: translate(-50%, -0%);
+    padding: 50px;
+}
+.modalWindowBody{
+    display: flex;
+    flex-direction: column;
+
+}
+.modalTop {
+    height: 300px;
+}
+.modalTop img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
