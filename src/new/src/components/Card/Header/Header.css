@@ -1,0 +1,35 @@
+@media all and (min-width: 1024px) {
+  .header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 40px;
+    background-color: #F4F4F4;
+  }
+}
+
+@media all and (min-width: 1540px) {
+  .header {
+    padding: 67px 0;
+  }
+}
+@keyframes slidein {
+  0% {
+    font-size: 20px;
+  }
+
+  50% {
+    font-size: 40px;
+  }
+  100% {
+    font-size: 20px;
+  }
+}
+
+
+.btnTest {
+  animation-duration: 3s;
+  animation-name: slidein;
+  position: absolute;
+  font-size: 20px;
+}

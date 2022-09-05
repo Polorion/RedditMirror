@@ -1,0 +1,135 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.leftHeader {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  font-size: 28px;
+  font-weight: 400;
+  color: #333333;
+  margin-right: 48px;
+}
+.categories {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+.cat{
+  padding: 0px 5px;
+  color: #D1784B;
+}
+.rigthHeader {
+  display: flex;
+  align-items: center;
+}
+
+.rigthHeader input {
+  width: 280px;
+  height: 50px;
+  border-radius: 30px;
+  padding: 13px 40px 13px 60px;
+  margin: 0 30px;
+}
+.rigthHeader label {
+  display: flex;
+  position: relative;
+}
+
+.find {
+  position: absolute;
+  left: 50px;
+  top: 30%;
+}
+.message {
+  display: flex;
+  align-items: center;
+}
+
+.message svg  {
+  cursor: pointer;
+}
+
+.message svg path {
+  transition: all .5s ease;
+}
+
+.message svg:hover path{
+  fill:#CC6633
+}
+
+.message p {
+  position: relative;
+  margin-right: 15px;
+  transform-style: preserve-3d;
+  color: #fff;
+}
+.message p:after {
+  content: '';
+  top: -3px;
+  left: -6px;
+  right:-2.5px;
+  bottom: -2.5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background-color:#CC6633;
+  position: absolute;
+  transform: translateZ(-1px);
+}
+
+@media all and (max-width: 1024px) {
+  .header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 40px;
+    background-color: #F4F4F4;
+  }
+  .rigthHeader {
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: row-reverse;
+  }
+
+  .leftHeader {
+    flex-direction: column;
+    width: 100%;
+  }
+  .categories {
+    width: 100%;
+    padding: 11px 33px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  .cat {
+    margin-right: auto  ;
+  }
+  .info {
+    margin-right: 0px!important;
+    width: 100% ;
+    margin-bottom: 10px;
+  }
+  .rigthHeader input {
+    width: 100%;
+    margin: 0 10px 0 0;
+    padding: 13px 20px 13px 40px;
+    font-size: 12px;
+  }
+  .find {
+    left:   15px;
+  }
+}
+
+@media all and (min-width: 1540px) {
+  .header {
+    padding: 67px 0;
+  }
+}

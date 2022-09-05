@@ -1,0 +1,19 @@
+.emptyList {
+  height: 70vh;
+  background: url('../../../assets/img/bg.png') no-repeat center center / cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  text-align: center;
+  color: var(--greyF4);
+}
+
+.title span {
+  display: block;
+}

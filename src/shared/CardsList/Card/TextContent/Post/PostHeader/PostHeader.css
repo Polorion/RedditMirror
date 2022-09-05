@@ -1,0 +1,75 @@
+.header {
+  display: flex;
+  align-items: start;
+}
+
+.title {
+  margin-top: 0;
+  margin-left: 20px;
+}
+
+.title span {
+  display: block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.subtitle span:first-child {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #999999;
+}
+
+.subtitle span:first-child span {
+  margin-right: 5px;
+}
+
+.subtitle {
+  display: flex;
+}
+
+.subtitle > * {
+  margin: 0;
+  margin-right: 17px;
+}
+
+@media(min-width: 550px) {
+  .karmaCounter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column nowrap;
+  }
+
+  .karmaCounter span {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media(max-width: 550px) {
+  .title {
+    margin-left: 0;
+  }
+  
+  .title span {
+    font-size: 16px;
+  }
+
+  .subtitle {
+    flex-wrap: wrap;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .title {
+    order: -1;
+  }
+}

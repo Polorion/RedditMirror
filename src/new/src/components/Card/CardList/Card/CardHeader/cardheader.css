@@ -1,0 +1,32 @@
+.header_top {
+  display: flex;
+  align-items: center;
+
+}
+
+.logo {
+  margin-right: 7px;
+}
+
+.header_name {
+  color: var(--orenge);
+  font-size: 10px;
+
+}
+
+.header_title {
+  font-size: 20px;
+  margin-bottom: 10px;
+
+
+}
+
+.header {
+
+}
+
+.header_time {
+  font-size: 10px;
+  color: #999999;
+  margin-right: 7px;
+}

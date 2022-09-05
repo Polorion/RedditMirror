@@ -1,0 +1,13 @@
+.createdAt, .createdAt span {
+  color: var(--grey99);
+}
+
+.publishedLabel {
+  display: inline;
+}
+
+@media(max-width: 996px) {
+  .publishedLabel {
+    display: none;
+  }
+}

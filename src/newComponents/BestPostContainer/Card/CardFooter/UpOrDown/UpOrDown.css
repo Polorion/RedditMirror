@@ -1,0 +1,18 @@
+.arrow_down{
+  transform: rotate(180deg);
+
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.arrow_top {
+
+}
+
+.count {
+  padding: 10px 0;
+}

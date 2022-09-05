@@ -1,0 +1,19 @@
+
+.bodyDropdown {
+    width: 100%;
+    flex: 1 1 0%
+}
+
+.containerListDropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.listDropdown {
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,56 @@
+.modalBody {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.43);
+}
+.afterBody {
+    position: absolute;
+    top:5%;
+    left:15%;
+    width: 70%;
+    height: 90%;
+    background-color: #FFFFFF;
+    padding: 50px;
+
+}
+
+.body {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+}
+
+
+.modalTop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.modalTop span:last-child {
+    color:var(--orange);
+    font-size: 18px;
+}
+
+.upDown {
+    margin-right: 30px;
+}
+
+.topInfo p{
+    margin-bottom: 5px;
+
+}
+.topInfo span{
+    margin-right: 5px;
+
+}
+
+
+.modalMidl img {
+    width: 100%;
+    height: 100%;
+}

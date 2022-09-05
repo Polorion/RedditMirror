@@ -1,0 +1,56 @@
+.login {
+    order:4;
+    display: flex;
+    align-items: center;
+}
+.avatar {
+    width:60px;
+    height:60px;
+    margin-right: 10px;
+}
+
+.avatar img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+
+    transition: outline .5s ease;
+    outline:1px solid #F4F4F4;
+    outline-offset: 3px;
+}
+
+a:hover img{
+    outline:1px solid #CC6633;
+    outline-offset: 3px;
+}
+
+a div {
+    transition: all .5s ease;
+}
+
+a:hover div {
+    color: #CC6633;
+
+}
+
+@media all and (max-width: 1024px) {
+
+.name {
+    display: none;
+}
+    .avatar {
+        margin-right: 0;
+    }
+
+}
+
+@media all and (max-width: 430px) {
+    .avatar img {
+        width: 45px;
+        height: 45px;}
+    .avatar{
+        width: 45px;
+        height: 45px;
+    }
+
+}

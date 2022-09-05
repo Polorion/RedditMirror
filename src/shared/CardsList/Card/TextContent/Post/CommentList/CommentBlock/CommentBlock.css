@@ -1,0 +1,108 @@
+.commentBlock {
+  margin-top: 15px;
+  position: relative;
+  padding-left: 30px;
+  overflow: hidden;
+  min-width: 200px;
+  overflow-x: auto;
+}
+
+.commentBlock:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+.commentBlock::before {
+  content: "";
+  position: absolute;
+  left: 8px;
+  top: 45px;
+  height: 100%;
+  width: 3px;
+  background-color: var(--greyD9);
+}
+
+.header::before,
+.header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 10px solid transparent; border-top: 10px solid var(--greyD9);
+}
+
+.header::before {
+  transform: rotate(180deg);
+  top: -10px;
+}
+
+.header::after {
+  top: 20px;
+} 
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header > * {
+  margin-right: 5px;
+}
+
+.header > *:last-child {
+  margin-right: 0;
+}
+
+.footer {
+  display: flex;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+}
+
+.button:not(:last-child) {
+  margin-right: 27px;
+}
+
+.button svg {
+  margin-right: 5px;
+}
+
+@media(hover:hover) {
+  .button:hover {
+    color: var(--orange);
+  }
+
+  .button:hover > svg > path {
+    fill: var(--orange)
+  }
+}
+
+@media(max-width: 550px) {
+  .themes {
+    display: none;
+  }
+
+  .button {
+    font-size: 0;
+  }
+
+  .commentBlock {
+    padding-left: 10px;
+  }
+
+  .header {
+    flex-wrap: wrap;
+  }
+
+  .header::before,
+  .header::after {
+    display: none;
+  }
+
+  .commentBlock::before {
+    left: 0;
+    top: 36px;
+  }
+}

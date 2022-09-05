@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/remove skillbox.iml" filepath="$PROJECT_DIR$/.idea/remove skillbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ReactJS-deploy.iml" filepath="$PROJECT_DIR$/.idea/ReactJS-deploy.iml" />
     </modules>
   </component>
 </project>
