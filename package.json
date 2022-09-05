@@ -10,7 +10,7 @@
     "build:dev": "cross-env NODE_ENV=development webpack --config webpack.config.js --progress",
     "build": "cross-env NODE_ENV=production webpack --config webpack.config.js",
     "dev": "cross-env NODE_ENV=development CLIENT_ID=WNfpbSMHp1UX7Zw8H5-dcA SECRET=2qtBVvn9HtzZ8iuzAYRuX5-Y0IAGJg CURRENT_URL=http://localhost:3000/auth node ./bin/dev.js",
-    "start": "cross-env  SECRET=ADFGb2MfvIH86qptWezxrS0bwet0LA CLIENT_ID=T_jy3_8oIT_X0JKVG2jEfA CURRENT_URL=https://newmirrorreddit.herokuapp.com/auth node ./dist/server/server.js ",
+    "start": "cross-env  SECRET=ADFGb2MfvIH86qptWezxrS0bwet0LA CLIENT_ID=T_jy3_8oIT_X0JKVG2jEfA CURRENT_URL=https://mirror-reddit-owner.herokuapp.com/auth node ./dist/server/server.js ",
     "test": "npx jest ---watchAll"
   },
   "author": "",
