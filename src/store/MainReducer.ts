@@ -19,7 +19,7 @@ export const SetUserData = (data: string) => {
   };
 };
 
-export const setToken = (token: string) => {
+export const setToken = (token: any) => {
   return {
     type: SET_TOKEN,
     token,
@@ -113,7 +113,7 @@ const MainRecucer = (
 export default MainRecucer;
 
 export const getUserThunk =
-  (token: string): ThunkAction<void, AppStateType, unknown, Action<string>> =>
+  (token: any): ThunkAction<void, AppStateType, unknown, Action<string>> =>
   (dispatch) => {
     dispatch(setLoadingUser(true));
     axios

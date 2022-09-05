@@ -7,7 +7,7 @@ import { meReducer, MeState } from './login/reducer'
 import { SET_TOKEN } from './token/action'
 
 export type RootState = {
-  token: string
+  token: any
   commentText: string
   isFormFocus: boolean
   focusCommentFormUserName: string

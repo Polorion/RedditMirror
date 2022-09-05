@@ -4,7 +4,7 @@ import { RootState } from '../reducer'
 
 type SetTokenAction = {
   type: string
-  token: string
+  token: any
 }
 
 export const SET_TOKEN = 'SET_TOKEN'

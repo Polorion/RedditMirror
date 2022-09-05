@@ -20,7 +20,7 @@ interface IBestPostContainer {
   bestPost: any[];
   userIsActive: boolean | string;
   afterPostPack: string | (string & []);
-  token: string;
+  token: any;
   setModalId: (id: string) => { id: string; type: string };
   setPostThunk: any;
 }

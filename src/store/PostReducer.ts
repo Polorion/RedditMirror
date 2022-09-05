@@ -57,7 +57,7 @@ export default PostReducer;
 
 export const setPostThunk =
   (
-    token: string,
+    token: any,
     afterPost = ""
   ): ThunkAction<void, AppStateType, unknown, Action<string>> =>
   async (dispatch) => {

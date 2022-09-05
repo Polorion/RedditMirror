@@ -6,11 +6,11 @@ import { ThunkAction } from "redux-thunk";
 import { Action } from "redux";
 import { AppStateType } from "../../store/Store";
 interface IBestPost {
-  token: string;
+  token: any;
   bestPost: any[];
   afterPostPack: string;
   setPostThunk: (
-    token: string,
+    token: any,
     afterPost?: string
   ) => ThunkAction<void, AppStateType, unknown, Action<string>>;
   setModalId: (id: string) => { type: string; id: string };
